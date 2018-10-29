@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_marginTop="0dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.HomeFragment"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="110dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <itboom.com.swap.custom_views.SwapTextView
+            android:id="@+id/homeResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/result"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/homeRecView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/home_bottom"/>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/addItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plus" />
+
+        <ImageView
+            android:id="@+id/swaps"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/swap_holo"
+            android:layout_marginBottom="0dp"/>
+    </RelativeLayout>
+
+</FrameLayout>

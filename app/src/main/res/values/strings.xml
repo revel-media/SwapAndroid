@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Swap</string>
+    <string name="title_activity_app">AppActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="empty_email">email cannot be empty</string>
+    <string name="empty_password">password cannot be empty</string>
+    <string name="email_error">wrong email</string>
+    <string name="password_error">password must be 8 digits at least</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget your password!</string>
+    <string name="have_no_account">I don\'t have account</string>
+    <string name="register">Register</string>
+    <string name="name">name</string>
+    <string name="phone">phone number</string>
+    <string name="empty_name">name cannot be empty</string>
+    <string name="empty_phone">phone cannot be empty</string>
+    <string name="name_error">wrong name</string>
+    <string name="phone_error">wrong phone</string>
+    <string name="i_have_account">I have account</string>
+    <string name="welcome">Welcome to swap</string>
+    <string name="select_interests">Please select your interests</string>
+    <string name="start">Let\'s start</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="swaps">Swaps</string>
+    <string name="interests">Interests</string>
+    <string name="add_item">Add Item</string>
+    <string name="language">Language</string>
+    <string name="update_profile">Update profile info</string>
+    <string name="my_interests">My interests</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us">Contact us</string>
+    <string name="logout">Logout</string>
+    <string name="result">result</string>
+    <string name="results">results</string>
+    <string name="by">By</string>
+    <string name="ask_for_swap">Ask for swap</string>
+    <string name="search_hint">search items</string>
+    <string name="my_swaps">My Swaps</string>
+    <string name="my_ongoing_swaps">Ongoing swaps</string>
+    <string name="my_completed_swaps">Completed swaps</string>
+    <string name="my_rejected_swaps">Rejected Swaps</string>
+    <string name="my_items">My Items</string>
+    <string name="status">Status:</string>
+    <string name="okay">okay</string>
+    <string name="cancel">cancel</string>
+    <string name="no_items_available">No items available</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="category">category</string>
+    <string name="add_images">add images</string>
+    <string name="add">add</string>
+</resources>

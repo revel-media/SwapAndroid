@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:background="@drawable/white_btn_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".AlertFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@drawable/white_btn_bg"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:context=".AlertFragment"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <itboom.com.swap.custom_views.SwapTextView
+            android:id="@+id/message"
+            android:layout_margin="50dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <itboom.com.swap.custom_views.SwapButton
+                android:id="@+id/okay"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/okay"
+                style="@style/Widget.Swap.Button.Purple"/>
+
+            <itboom.com.swap.custom_views.SwapButton
+                android:id="@+id/cancel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                style="@style/Widget.Swap.Button.Blue"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/purple_swap_name"
+        android:layout_gravity="center"
+        android:alpha="0.1"/>
+</FrameLayout>

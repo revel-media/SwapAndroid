@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Swap</string>
+    <string name="title_activity_app">AppActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="empty_email">البريد الالكتونى فارغ</string>
+    <string name="empty_password">كلمة المرور فارغة</string>
+    <string name="email_error">خطأ فى البريد الالكترونى</string>
+    <string name="password_error">كلمة المرور يجب ان تكون من ثمان حروف على الأقل</string>
+    <string name="email">البريد الالكترونى</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="forget_password">نسيت كلمة المرور!</string>
+    <string name="have_no_account">ليس لديك حساب</string>
+    <string name="register">تسجيل</string>
+    <string name="name">الاسم</string>
+    <string name="phone">رقم التليفون</string>
+    <string name="empty_name">الاسم فارغ</string>
+    <string name="empty_phone">رقم التليفون فارغ</string>
+    <string name="name_error">خطأ فى الاسم</string>
+    <string name="phone_error">خطأ فى رقم التليفون</string>
+    <string name="i_have_account">لدى حساب</string>
+    <string name="welcome">اهلا بك فى Swap</string>
+    <string name="select_interests">من فضلك اختار الاهتمامات الخاصة بك</string>
+    <string name="start">هيا لنبدأ</string>
+    <string name="home">الرئيسية</string>
+    <string name="profile">الملف الشخصى</string>
+    <string name="swaps">العمليات</string>
+    <string name="interests">الاهتمامات</string>
+    <string name="add_item">اضافة موضوع</string>
+    <string name="language">اللغة</string>
+    <string name="update_profile">الملف الشخصى</string>
+    <string name="my_interests">الفئات</string>
+    <string name="about_us">عن Swap</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="result">نتيجة</string>
+    <string name="results">نتائج</string>
+    <string name="by">بواسطة</string>
+    <string name="ask_for_swap">طلب المبادلة</string>
+    <string name="search_hint">بحث</string>
+    <string name="my_swaps">معاملاتى</string>
+    <string name="my_items">اشيائى</string>
+    <string name="status">الحالة:</string>
+    <string name="my_ongoing_swaps">المعاملات الجارية</string>
+    <string name="my_completed_swaps">المعاملات المنتهية</string>
+    <string name="my_rejected_swaps">المعاملات المرفوضة</string>
+    <string name="cancel">الغاء</string>
+    <string name="okay">حسنا</string>
+    <string name="no_items_available">لا يوجد اشياء متاحة لك الأن</string>
+    <string name="title">الاسم</string>
+    <string name="description">الوصف</string>
+    <string name="category">الفئة</string>
+    <string name="add_images">اضافة صور</string>
+    <string name="add">اضافة</string>
+</resources>

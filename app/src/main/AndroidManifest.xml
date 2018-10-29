@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="itboom.com.swap">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:icon="@drawable/purple_swap"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/purple_swap"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Swap">
+        <activity
+            android:name=".auth.AuthActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Swap.NoActionBar" />
+        <activity
+            android:name=".main.AppActivity"
+            android:label="@string/title_activity_app"
+            android:theme="@style/Theme.Swap.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".swaps.SwapsActivity" />
+        <activity android:name=".add_item.AddItemActivity"></activity>
+    </application>
+
+</manifest>
